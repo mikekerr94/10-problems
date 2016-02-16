@@ -1,0 +1,4 @@
+var sampleArray = [14,3,5,"bob, "alfred, "sara"
+var everyOther = function(anArray) {
+
+}
