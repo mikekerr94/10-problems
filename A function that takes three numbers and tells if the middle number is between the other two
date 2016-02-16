@@ -1,0 +1,19 @@
+function choosy(array) {
+if (array[0] > array[1]) {
+  if (array[1] > array[2]) {
+    return "b is the middle value";
+  } else if (array[0] > array[2]) {
+    return "c is the middle value";
+  } else {
+    return "a is the middle value";
+  }
+} else {
+  if (array[0] > array[2]) {
+    return "a is the middle value";
+  } else if (array[1] > array[2]) {
+    return "c is the middle value";
+  } else {
+    return "b is the middle value";
+  }
+}
+}
