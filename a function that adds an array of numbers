@@ -1,0 +1,7 @@
+function arrayAdd () {
+  return a.concat(b, c);
+}
+
+var a = [1,2,3];
+var b = [110,220,330];
+var c = [15,45,75];
