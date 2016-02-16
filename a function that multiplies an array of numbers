@@ -1,0 +1,9 @@
+function multiply (array) {
+        var sum=1;
+        for (var i=0; i<array.length; i++) {
+            sum = sum * array[i];
+        } 
+        return sum;
+    }
+// input numbers to be multiplied below
+    console.log(multiply([4,5,3]));
