@@ -1,4 +1,9 @@
-var sampleArray = [14,3,5,"bob, "alfred, "sara"
-var everyOther = function(anArray) {
-
+var sampleArray = [14,3,5,"bob", "alfred", "sara"];
+var everyOdd = function(anArray) {
+  var tempArray = []
+  for (var i = 1; i < array.length; i += 2){
+  tempArray.push(anArray[1])
+  
+}
+  
 }
